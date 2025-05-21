@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { saveResponses } from "../lib/saveResponses"; 
 
 interface Question {
@@ -315,8 +314,7 @@ export default function Questionnaire() {
       setShowQuestions(true);
     }
   };
-  const handleFinish = () => {
-  localStorage.setItem("questionnaireCompleted", "true");
+
 };
   if (!showQuestions) {
     return (
