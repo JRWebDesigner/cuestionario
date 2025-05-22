@@ -593,7 +593,7 @@ export default function StatsDashboard() {
     const usersSheet = userChartData.map(user => ({
       "ID Usuario": user.userId,
       "Nombre": user.name,
-      "Edad": formatAge(user.age),
+      "Edad": user.age,
       "Género": user.gender,
       "Total Respuestas": user.responses,
       "Puntaje Promedio": `${user.averageScore.toFixed(1)}%`,
