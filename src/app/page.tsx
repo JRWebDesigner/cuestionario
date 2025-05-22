@@ -2,8 +2,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { saveResponses } from "../lib/saveResponses"; 
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 interface Question {
   id: number;
@@ -336,7 +334,7 @@ export default function Questionnaire() {
             <h3 className="text-xl font-bold text-indigo-800">Consentimiento Informado</h3>
           </div>
           <div className="space-y-4 text-sm text-gray-800">
-            <p><strong>Título:</strong> "Asesoramiento virtual como medio de prevención de embarazo en la comunidad estudiantil de la Universidad Privada Franz Tamayo 2025"</p>
+            <p><strong>Título:</strong>&quot;Asesoramiento virtual como medio de prevención de embarazo en la comunidad estudiantil de la Universidad Privada Franz Tamayo 2025&quot;</p>
             <p><strong>Contenido:</strong> El cuestionario cuenta con 20 preguntas entre selección múltiple y de respuesta abierta cuya finalidad del presente trabajo de investigación es identificar las causas del embarazo en la comunidad estudiantil universitario.</p>
             <p><strong>AUTORES:</strong></p>
             <ul className="list-disc list-inside ml-4">
