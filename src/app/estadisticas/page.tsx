@@ -1003,7 +1003,7 @@ export default function StatsDashboard() {
                               onClick={() => setSelectedUser(user.userId)}
                             >
                               <td className="px-6 py-4 whitespace-nowrap">{user.name}</td>
-                              <td className="px-6 py-4 whitespace-nowrap">{formatAge(user.age)}</td>
+                              <td className="px-6 py-4 whitespace-nowrap">{user.age}</td>
                               <td className="px-6 py-4 whitespace-nowrap">{user.gender}</td>
                               <td className="px-6 py-4 whitespace-nowrap">{user.averageScore.toFixed(1)}%</td>
                               <td className="px-6 py-4 whitespace-nowrap">{user.lastResponse}</td>
