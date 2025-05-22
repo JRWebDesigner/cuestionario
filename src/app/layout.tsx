@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Metodos Anticonceptivos - Informacion y cuestionario",
+  title: "Cuestionario Metodos Anticonceptivos",
   description: "El conocimiento sobre anticoncepción es fundamental para tomar decisiones informadas sobre salud sexual y reproductiva. Esta guía está dirigida a profesionales de la salud, educadores y a cualquier persona interesada en conocer sus opciones de planificación familiar.",
 };
 
