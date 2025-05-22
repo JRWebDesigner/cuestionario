@@ -313,9 +313,7 @@ export default function Questionnaire() {
     if (userData.name && userData.age) {
       setShowQuestions(true);
     }
-  };
-
-};
+  }
   if (!showQuestions) {
     return(
       <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
