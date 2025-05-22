@@ -546,7 +546,7 @@ export default function StatsDashboard() {
       return {
         "ID": idx + 1,
         "Usuario": response.userName,
-        "Edad": formatAge(response.userAge),
+        "Edad": response.userAge,
         "Género": response.userGender || 'No especificado',
         "Fecha": format(new Date(response.timestamp?.seconds * 1000), 'dd/MM/yyyy HH:mm', { locale: es }),
         "Puntaje Total": `${correctAnswers}/${questions.length}`,
