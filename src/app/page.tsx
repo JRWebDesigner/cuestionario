@@ -58,8 +58,7 @@ const questions: Question[] = [
   },
   {
     id: 5,
-    text: "¿Cuál es la función principal del diafragma como método anticonceptivo?
-",
+    text: "¿Cuál es la función principal del diafragma como método anticonceptivo?",
     options: [
       "Liberar hormonas para evitar la ovulación",
       "Crear una barrera física en el cuello uterino",
