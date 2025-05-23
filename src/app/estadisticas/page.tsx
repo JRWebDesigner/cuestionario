@@ -243,25 +243,23 @@ const questions: Question[] = [
     id: 19,
     text: "¿La intervención quirúrgica de ligadura de trompas consiste en?",
     options: [
-      "Atar las trompas de Falopio",
-      "Seccion de las trompas de Falopio",
-      "Obstruir las trompas de Falopio",
-      "A y C",
-      "B y C"
+      "En la extirpación del útero para evitar el embarazo",
+      "En la colocación de un dispositivo dentro del útero",
+      "En el corte o bloqueo de las trompas de Falopio para impedir que el óvulo se una con el espermatozoide",
+      "En el uso de hormonas para evitar la ovulación"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     id: 20,
-    text: "La vasectomía es efectiva a partir de los:",
+    text: "¿La vasectomía es efectiva a partir de los:",
     options: [
-      "7 días",
-      "1 semana",
-      "2 semanas",
-      "3 meses",
-      "6 meses"
+      "Inmediatamente después de la cirugía",
+"7 días después de la intervención",
+"Cuando se confirma la ausencia de espermatozoides en el semen mediante un espermiograma",
+"Al mes de la intervención, sin necesidad de control"
     ],
-    correctAnswer: 4
+    correctAnswer: 2
   }
 ];
 
