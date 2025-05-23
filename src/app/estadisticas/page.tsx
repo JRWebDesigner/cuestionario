@@ -32,7 +32,7 @@ interface Question {
 }
 
 const questions: Question[] = [
-   {
+  {
     id: 1,
     text: "Los métodos anticonceptivos son:",
     options: [
@@ -58,20 +58,20 @@ const questions: Question[] = [
     id: 3,
     text: "Los métodos de uso anticonceptivos para mujeres son:",
     options: [
-      "Condón, coito interrumpido, vasectomía",
+      "Condón Femenino, coito interrumpido, vasectomía",
       "Píldora, método del ritmo, T de cobre",
-      "Condón, píldora, T de cobre",
+      "Condón femenino , píldora, T de cobre",
       "Ninguna de las anteriores"
     ],
-    correctAnswer: 2
+    correctAnswer: 1
   },
   {
     id: 4,
     text: "Los métodos de uso anticonceptivos para los hombres son:",
     options: [
-      "Condón, coito interrumpido, vasectomía",
+      "Condón masculino , vasectomía",
       "Píldora, métodos del ritmo, T de cobre",
-      "Condón, píldora, T de cobre",
+      "Condón masculino, píldora, T de cobre",
       "Ninguna de las anteriores"
     ],
     correctAnswer: 0
@@ -81,7 +81,7 @@ const questions: Question[] = [
     text: "Según los siguientes métodos, ¿cuáles requieren supervisión médica?",
     options: [
       "Píldora, inyecciones, T de cobre",
-      "Método del ritmo, coito interrumpido",
+      "Método del ritmo",
       "Diafragma",
       "Todas las anteriores",
       "Ninguna de las anteriores"
@@ -125,15 +125,14 @@ const questions: Question[] = [
   },
   {
     id: 9,
-    text: "¿Cuáles son los métodos naturales?",
+    text: "¿Cuál es un paso correcto al utilizar el condón masculino?",
     options: [
-      "Ritmo",
-      "Diafragma",
-      "Método Billings o Moco cervical",
-      "Condón",
-      "A y C"
+      "Guardarlo en la billetera por mucho tiempo para tenerlo siempre disponible",
+      "Usarlo solo después de que haya eyaculación",
+      "Revisar la fecha de vencimiento y abrir el paquete con cuidado",
+      "Guardarlo al sol para mantenerlo seco"
     ],
-    correctAnswer: 4
+    correctAnswer: 2
   },
   {
     id: 10,
@@ -161,14 +160,14 @@ const questions: Question[] = [
   },
   {
     id: 12,
-    text: "¿El método del ritmo consiste en tener relaciones los días?",
+    text: "¿Qué característica distingue al condón femenino del masculino?",
     options: [
-      "Los días fértiles",
-      "Los días infértiles",
-      "Todos los días",
-      "Ninguna de las anteriores"
+      "El condón femenino se ajusta dentro de la vagina y cubre parte de la vulva.",
+      "El condón femenino se coloca directamente sobre el pene erecto.",
+      "El condón femenino no requiere lubricación para su uso.",
+      "El condón femenino está hecho del mismo material que las píldoras anticonceptivas."
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
     id: 13,
@@ -184,7 +183,7 @@ const questions: Question[] = [
   },
   {
     id: 14,
-    text: "¿Los efectos secundarios más conocidos son?",
+    text: "¿Los efectos secundarios más conocidos de los métodos hormonales son?",
     options: [
       "Dolor de cabeza y suspensión del ciclo menstrual",
       "Subida de peso y dolor de cabeza",
@@ -247,12 +246,12 @@ const questions: Question[] = [
     text: "¿La intervención quirúrgica de ligadura de trompas consiste en?",
     options: [
       "Atar las trompas de Falopio",
-      "Cortar las trompas de Falopio",
+      "Seccion de las trompas de Falopio",
       "Obstruir las trompas de Falopio",
       "A y C",
       "B y C"
     ],
-    correctAnswer: 4
+    correctAnswer: 1
   },
   {
     id: 20,
@@ -264,7 +263,7 @@ const questions: Question[] = [
       "3 meses",
       "6 meses"
     ],
-    correctAnswer: 3
+    correctAnswer: 4
   }
 ];
 
