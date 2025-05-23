@@ -16,9 +16,9 @@ const questions: Question[] = [
     id: 1,
     text: "Los métodos anticonceptivos son:",
     options: [
-      "Sustancias que impiden que nazca el bebé",
-      "Sustancias y/o procedimientos que impiden el embarazo",
-      "Sustancias que causan daño a la mujer",
+      "Elementos que impiden el nacimiento del bebé",
+      "Métodos y/o procedimientos que previenen el embarazo",
+      "Elementos que afectan negativamente la salud de la mujer",
       "Ninguna de las anteriores"
     ],
     correctAnswer: 1
@@ -36,49 +36,48 @@ const questions: Question[] = [
   },
   {
     id: 3,
-    text: "Los métodos de uso anticonceptivos para mujeres son:",
+    text: "¿Cuáles son métodos anticonceptivos reversibles para mujeres?",
     options: [
-      "Condón Femenino, coito interrumpido, vasectomía",
-      "Píldora, método del ritmo, T de cobre",
-      "Condón femenino , píldora, T de cobre",
-      "Ninguna de las anteriores"
+      "Métodos hormonales: píldoras, inyecciones mensuales o trimestrales, parche.",
+      "Métodos de barrera: condón femenino, diafragma.",
+      "Dispositivos intrauterinos: T de cobre, SIU (sistema intrauterino hormonal).",
+      "Todas las anteriores"
+    ],
+    correctAnswer: 3  
+  },
+  {
+    id: 4,
+    text: "¿Cuáles son los métodos anticonceptivos disponibles para hombres?",
+    options: [
+      "Método reversible: condón masculino.",
+      "Método irreversible: vasectomía.",
+      "Ambos: condón y vasectomía.",
+      "Ninguno"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 5,
+    text: "¿Cuál es la función principal del diafragma como método anticonceptivo?
+",
+    options: [
+      "Liberar hormonas para evitar la ovulación",
+      "Crear una barrera física en el cuello uterino",
+      "Cambiar el pH vaginal para destruir espermatozoides",
+      "Regular el ciclo menstrual"
     ],
     correctAnswer: 1
   },
   {
-    id: 4,
-    text: "Los métodos de uso anticonceptivos para los hombres son:",
-    options: [
-      "Condón masculino , vasectomía",
-      "Píldora, métodos del ritmo, T de cobre",
-      "Condón masculino, píldora, T de cobre",
-      "Ninguna de las anteriores"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 5,
-    text: "Según los siguientes métodos, ¿cuáles requieren supervisión médica?",
-    options: [
-      "Píldora, inyecciones, T de cobre",
-      "Método del ritmo",
-      "Diafragma",
-      "Todas las anteriores",
-      "Ninguna de las anteriores"
-    ],
-    correctAnswer: 3
-  },
-  {
     id: 6,
-    text: "¿Cuáles son los métodos de barrera?",
+    text: "¿Qué método anticonceptivo debe mantenerse en la vagina horas después de la relación sexual?",
     options: [
-      "Método de calendario (ritmo)",
-      "T de cobre (dispositivo intrauterino)",
-      "Píldoras o inyecciones",
-      "Ligadura de trompas – vasectomía",
-      "Condón (preservativo) – Diafragma"
+       "Condón femenino",
+      "Diafragma",
+"Píldora anticonceptiva",
+"Dispositivo intrauterino"
     ],
-    correctAnswer: 4
+    correctAnswer: 1
   },
   {
     id: 7,
@@ -94,14 +93,14 @@ const questions: Question[] = [
   },
   {
     id: 8,
-    text: "¿Tiene efectos secundarios los Métodos de Barrera?",
+    text: "¿Qué método es recomendado para mujeres que desean evitar el embarazo a corto plazo sin usar hormonas?",
     options: [
-      "Sí",
-      "No",
-      "A veces",
-      "Ninguna de las anteriores"
+      "Píldora anticonceptiva",
+"Dispositivo intrauterino de cobre",
+"Inyección anticonceptiva",
+"Parche anticonceptivo"
     ],
-    correctAnswer: 2
+    correctAnswer: 1
   },
   {
     id: 9,
